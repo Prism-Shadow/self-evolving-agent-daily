@@ -5,7 +5,7 @@ PenguinHarness 架构讲解大纲（要讲的内容），对应 [penguin-harness
 ## 1. 核心抽象与闭环
 
 1. **最基本的 agent 抽象：Human、Environment 和 LLM** — 三者互相之间如何交互形成闭环；一次运行与多次运行
-2. **agent 的层级关系** — agent、session、request，以及基础 API 的定义
+2. **agent 的层级关系** — 三层结构：agent（持久化 Agent State）→ session（一次对话/运行单元）→ request（单轮 LLM 请求）；基础 API：`createAgent` 创建/加载 Agent，`agent.createSession` 创建 Session，`agent.resumeSession` 从 Trace 恢复；**Session 创建时的依赖**：必须指定 `workspaceDir`（工作目录）与 `modelId`（模型），`apiKey` / `baseUrl` 可选（回退链：显式传参 → Project 配置 → 环境变量）；恢复语义：Model 与 Workspace 沿用原 Session、不可更换；换模型 = 开新 Session 并沿用源 Workspace（文件可达才是真延续），不注入历史
 3. **设计 OmniMessage** — 以及 append-only trace 作为唯一真相来源
 
 ## 2. 接口设计

@@ -3,7 +3,6 @@
 > 本文档是 [hiyouga/Designing-Self-Evolving-Agents](https://github.com/hiyouga/Designing-Self-Evolving-Agents) 仓库（《构建自进化的 LLM Agent》React + Vite 演示文稿）的文本内容参考。
 >
 > 来源仓库：<https://github.com/hiyouga/Designing-Self-Evolving-Agents>
-> 作者：郑耀威（Yaowei Zheng），Founder@LlamaFactory, CTO@PrismShadow
 > Deck 框架：基于 [Prism-Shadow/minimal-web-slides](https://github.com/Prism-Shadow/minimal-web-slides) 构建
 > 内容语言：简体中文 / English 双语
 
@@ -30,10 +29,6 @@ LLM Agent 的系统结构、Agent Harness 如何控制执行过程，以及如�
 ## 1. 构建自进化的 LLM Agent（封面）
 
 **Building Self-Evolving LLM Agents**
-
-演讲者：郑耀威（Yaowei Zheng）
-- Founder@LlamaFactory
-- CTO@PrismShadow
 
 ---
 
@@ -191,11 +186,6 @@ Harness 控制自进化 Agent 的评估闭环：Harness 同时支配 **Agent 内
 ## 9. Thank You
 
 **Thank You**
-
-联系信息（Follow me on / 关注我的账号）：
-- X: <https://x.com/hiyouga_dev>
-- GitHub: <https://github.com/hiyouga>
-- LinkedIn: <https://www.linkedin.com/in/hiyouga/>
 
 ---
 

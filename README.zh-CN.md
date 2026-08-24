@@ -27,3 +27,7 @@ docs/        参考资料与文档
 assets/      图表资源
 LICENSE      Apache License 2.0
 ```
+
+## 开发说明
+
+本项目完全由 [PenguinHarness](https://github.com/Prism-Shadow/penguin-harness) + DeepSeek V4 Flash 开发。

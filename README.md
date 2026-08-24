@@ -27,3 +27,7 @@ docs/        reference materials
 assets/      diagram assets
 LICENSE      Apache License 2.0
 ```
+
+## Credits
+
+This project is developed entirely with [PenguinHarness](https://github.com/Prism-Shadow/penguin-harness) + DeepSeek V4 Flash.
